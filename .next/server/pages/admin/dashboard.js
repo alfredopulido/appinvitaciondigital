@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -171,14 +171,6 @@ const cancelIdleCallback = typeof self !== 'undefined' && self.cancelIdleCallbac
 };
 
 exports.cancelIdleCallback = cancelIdleCallback;
-
-/***/ }),
-
-/***/ 10:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("RNiq");
-
 
 /***/ }),
 
@@ -266,6 +258,21 @@ function normalizeLocalePath(pathname, locales) {
     detectedLocale
   };
 }
+
+/***/ }),
+
+/***/ 4:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("sUSu");
+
+
+/***/ }),
+
+/***/ "4Q3z":
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 
@@ -474,177 +481,6 @@ module.exports = _interopRequireDefault;
 
 /***/ }),
 
-/***/ "BwTs":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Footer; });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("F5FC");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-
-function Footer() {
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
-    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("footer", {
-      className: "relative bg-blueGray-200 pt-8 pb-6",
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20",
-        style: {
-          transform: "translateZ(0)"
-        },
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("svg", {
-          className: "absolute bottom-0 overflow-hidden",
-          xmlns: "http://www.w3.org/2000/svg",
-          preserveAspectRatio: "none",
-          version: "1.1",
-          viewBox: "0 0 2560 100",
-          x: "0",
-          y: "0",
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("polygon", {
-            className: "text-blueGray-200 fill-current",
-            points: "2560 0 2560 100 0 100"
-          })
-        })
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        className: "container mx-auto px-4",
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-          className: "flex flex-wrap text-center lg:text-left",
-          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-            className: "w-full lg:w-6/12 px-4",
-            children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {
-              className: "text-3xl font-semibold",
-              children: "Siguenos en redes"
-            }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h5", {
-              className: "text-lg mt-0 mb-2 text-blueGray-600",
-              children: "Siguenos en nuestras redes y conoce mas detalles de nuestros servicios."
-            }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-              className: "mt-6 lg:mb-0 mb-6",
-              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-twitter"
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-facebook-square"
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-dribbble"
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-github"
-                })
-              })]
-            })]
-          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-            className: "w-full lg:w-6/12 px-4",
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-              className: "flex flex-wrap items-top mb-6",
-              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4 ml-auto",
-                children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-                  className: "block uppercase text-blueGray-500 text-sm font-semibold mb-2",
-                  children: "Ligas"
-                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("ul", {
-                  className: "list-unstyled",
-                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Nosotros"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Blog"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Precios"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Servicios"
-                    })
-                  })]
-                })]
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-                  className: "block uppercase text-blueGray-500 text-sm font-semibold mb-2",
-                  children: "Otros recursos"
-                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("ul", {
-                  className: "list-unstyled",
-                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer",
-                      children: "MIT License"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Terminos y condiciones"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Aviso de privacidad"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Cont\xE1ctanos"
-                    })
-                  })]
-                })]
-              })]
-            })
-          })]
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("hr", {
-          className: "my-6 border-blueGray-300"
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-          className: "flex flex-wrap items-center md:justify-between justify-center",
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-            className: "w-full md:w-4/12 px-4 mx-auto text-center",
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-              className: "text-sm text-blueGray-500 font-semibold py-1",
-              children: ["Copyright \xA9 ", new Date().getFullYear(), " App Invitaci\xF3n Digital by", " ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                href: "/",
-                className: "text-blueGray-500 hover:text-blueGray-800",
-                children: "Dev@AlfredP"
-              }), "."]
-            })
-          })
-        })]
-      })]
-    })
-  });
-}
-
-/***/ }),
-
 /***/ "C+bE":
 /***/ (function(module, exports) {
 
@@ -685,6 +521,13 @@ exports.__esModule = true;
 exports.default = resolveRewrites;
 
 function resolveRewrites() {}
+
+/***/ }),
+
+/***/ "HAYV":
+/***/ (function(module, exports) {
+
+module.exports = require("chart.js");
 
 /***/ }),
 
@@ -965,807 +808,6 @@ exports.default = _default;
 /***/ (function(module, exports) {
 
 module.exports = require("next/dist/next-server/lib/router-context.js");
-
-/***/ }),
-
-/***/ "RNiq":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ Index; });
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__("F5FC");
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-
-// EXTERNAL MODULE: external "@popperjs/core"
-var core_ = __webpack_require__("pccx");
-
-// CONCATENATED MODULE: ./components/Dropdowns/IndexDropdown.js
-
-
-
-
-
-
-
-const IndexDropdown = () => {
-  // dropdown props
-  const [dropdownPopoverShow, setDropdownPopoverShow] = external_react_default.a.useState(false);
-  const btnDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
-  const popoverDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
-
-  const openDropdownPopover = () => {
-    Object(core_["createPopper"])(btnDropdownRef.current, popoverDropdownRef.current, {
-      placement: "bottom-start"
-    });
-    setDropdownPopoverShow(true);
-  };
-
-  const closeDropdownPopover = () => {
-    setDropdownPopoverShow(false);
-  };
-
-  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
-    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-      className: "hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
-      href: "#pablo",
-      ref: btnDropdownRef,
-      onClick: e => {
-        e.preventDefault();
-        dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
-      },
-      children: "Demo Pages"
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-      ref: popoverDropdownRef,
-      className: (dropdownPopoverShow ? "block " : "hidden ") + "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-        className: "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400",
-        children: "Admin Layout"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/admin/dashboard",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Dashboard"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/admin/settings",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Settings"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/admin/tables",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Tables"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/admin/maps",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Maps"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "h-0 mx-4 my-2 border border-solid border-blueGray-100"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-        className: "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400",
-        children: "Auth Layout"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/auth/login",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Login"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/auth/register",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Register"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "h-0 mx-4 my-2 border border-solid border-blueGray-100"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-        className: "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400",
-        children: "No Layout"
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/landing",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Landing"
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/profile",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-          href: "#pablo",
-          className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
-          children: "Profile"
-        })
-      })]
-    })]
-  });
-};
-
-/* harmony default export */ var Dropdowns_IndexDropdown = (IndexDropdown);
-// CONCATENATED MODULE: ./components/Navbars/IndexNavbar.js
-
-
-
-
- // components
-
-
-function Navbar(props) {
-  const [navbarOpen, setNavbarOpen] = external_react_default.a.useState(false);
-  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
-    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("nav", {
-      className: "top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow",
-      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-        className: "container px-4 mx-auto flex flex-wrap items-center justify-between",
-        children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-            href: "/",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-              className: "text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase",
-              href: "#pablo",
-              children: "Invitaci\xF3n Digital"
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
-            className: "cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none",
-            type: "button",
-            onClick: () => setNavbarOpen(!navbarOpen),
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-              className: "fas fa-bars"
-            })
-          })]
-        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" + (navbarOpen ? " block" : " hidden"),
-          id: "example-navbar-warning",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
-            className: "flex flex-col lg:flex-row list-none lg:ml-auto",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-              className: "flex items-center",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-                className: "hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
-                href: "/",
-                target: "_blank",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "text-blueGray-400 fab fa-facebook text-lg leading-lg "
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                  className: "lg:hidden inline-block ml-2",
-                  children: "Invitaci\xF3n digital facebook"
-                })]
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-              className: "flex items-center",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-                className: "hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
-                href: "/",
-                target: "_blank",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "text-blueGray-400 fab fa-instagram text-lg leading-lg "
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                  className: "lg:hidden inline-block ml-2",
-                  children: "Invitaci\xF3n digital instagram"
-                })]
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-              className: "flex items-center",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("button", {
-                className: "bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150",
-                type: "button",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "fas fa-check"
-                }), " Iniciar"]
-              })
-            })]
-          })
-        })]
-      })
-    })
-  });
-}
-// EXTERNAL MODULE: ./components/Footers/Footer.js
-var Footer = __webpack_require__("BwTs");
-
-// CONCATENATED MODULE: ./pages/index.js
-
-
-
-
-/* eslint-disable react/jsx-no-target-blank */
-
-
-
-
-function Index() {
-  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
-    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(Navbar, {
-      fixed: true
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "header relative pt-16 items-center flex h-screen max-h-860-px",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto items-center flex flex-wrap",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "pt-32 sm:pt-0",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h2", {
-              className: "font-semibold text-4xl text-blueGray-600",
-              children: "Invitaci\xF3n digital - Crea tus propias invitaciones electr\xF3nicas gratis."
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
-              className: "mt-4 text-lg leading-relaxed text-blueGray-500",
-              children: ["APP Invitaci\xF3n digital es un sistema para crear invitaciones digitales para tus eventos con lista de invitados y c\xF3digos personalizados, puedes compartirlas por Whatsapp, Facebook o correo. Cada invitaci\xF3n es un boleto \xFAnico para ingresar al evento a trav\xE9s de un sistema de registro de asistencias escaneando los c\xF3digos QR.", " "]
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "mt-12",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                href: "/auth/login",
-                className: "get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150",
-                children: "Iniciar ahora"
-              })
-            })]
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-        className: "absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px",
-        src: "/img/pattern_nextjs.png",
-        alt: "..."
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "mt-48 md:mt-40 pb-40 relative bg-blueGray-100",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20",
-        style: {
-          transform: "translateZ(0)"
-        },
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("svg", {
-          className: "absolute bottom-0 overflow-hidden",
-          xmlns: "http://www.w3.org/2000/svg",
-          preserveAspectRatio: "none",
-          version: "1.1",
-          viewBox: "0 0 2560 100",
-          x: "0",
-          y: "0",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("polygon", {
-            className: "text-blueGray-100 fill-current",
-            points: "2560 0 2560 100 0 100"
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "flex flex-wrap items-center",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
-                className: "w-full align-middle rounded-t-lg"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("blockquote", {
-                className: "relative p-8 mb-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("svg", {
-                  preserveAspectRatio: "none",
-                  xmlns: "http://www.w3.org/2000/svg",
-                  viewBox: "0 0 583 95",
-                  className: "absolute left-0 w-full block h-95-px -top-94-px",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("polygon", {
-                    points: "-30,95 583,95 583,65",
-                    className: "text-blueGray-700 fill-current"
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                  className: "text-xl font-bold text-white",
-                  children: "La plataforma de invitaciones que lo tiene todo"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                  className: "text-md font-light mt-2 text-white",
-                  children: "Con el paquete de herramientas disponibles para tu evento tendr\xE1s de manea sencilla el control de tus invitados como nunca antes en un solo lugar."
-                })]
-              })]
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-6/12 px-4",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "flex flex-wrap",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full md:w-6/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col mt-4",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-sitemap"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Lista de invitados"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Crea tu lista de invitados con c\xF3digo \xFAnico para tener el control de asistencia."
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col min-w-0",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-drafting-compass"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Dise\xF1o de invitaciones"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Fantasticas plantillas personalizables de invitaciones a tu evento organizadas por categor\xEDa."
-                    })]
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full md:w-6/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col min-w-0 mt-4",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-newspaper"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Registro de asistencia"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Descarga la app para validar los c\xF3digos de invitados al evento y registrar su asistencia."
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col min-w-0",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-file-alt"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Listado de asistencias"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Podr\xE1s descargar la lista de invitados que asistieron y que fueron registrados durante el evento."
-                    })]
-                  })
-                })]
-              })]
-            })
-          })]
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-        className: "container mx-auto overflow-hidden pb-20",
-        children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "flex flex-wrap items-center",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                className: "fas fa-sitemap text-xl"
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-              className: "text-3xl mb-2 font-semibold leading-normal",
-              children: "Lista de invitados"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
-              children: "Genera en tiempo real tus listas de invitados o importalas desde un CSV de Excel, podr\xE1s agregarlos y eliminarlos para tener visibilidad total de tus invitados y as\xED mejorar la planeacion de tu evento."
-            })]
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-5/12 px-4 mr-auto ml-auto mt-32",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "/img/component-profile-card.png",
-                className: "w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "/img/component-profile-card.png",
-                className: "w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "/img/component-profile-card.png",
-                className: "w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-              })]
-            })
-          })]
-        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "flex flex-wrap items-center pt-32",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-6/12 px-4 mr-auto ml-auto mt-32",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "justify-center flex flex-wrap relative",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "my-4 w-full lg:w-6/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-red-600 shadow-lg rounded-lg text-center p-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-birthday-cake"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Cumplea\xF1os"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-heart"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Bodas"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-graduation-cap"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Graduaciones"
-                    })]
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "my-4 w-full lg:w-6/12 px-4 lg:mt-16",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-yellow-500 shadow-lg rounded-lg text-center p-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-crown"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "15 A\xF1os"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-ring"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Aniversarios"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-glass-cheers"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Fiestas"
-                    })]
-                  })
-                })]
-              })]
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                className: "fas fa-calendar-check text-xl"
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-              className: "text-3xl mb-2 font-semibold leading-normal",
-              children: "Para todo tipo de eventos"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
-              children: "Elige el dise\xF1o que mas se adapte a tu evento o sube tu propio dise\xF1o"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "block pb-6",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Cumplea\xF1os"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Bodas"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Bautizos"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Graduaciones"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Reuniones"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "15 A\xF1os"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Aniversarios"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Festivales"
-              })]
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-              href: "/auth/login",
-              className: "font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150",
-              children: ["Ver todos", " ", /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                className: "fa fa-angle-double-right ml-1 leading-relaxed"
-              })]
-            })]
-          })]
-        })]
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto px-4 pb-32 pt-48",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "items-center flex flex-wrap",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-5/12 ml-auto px-12 md:px-4",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "md:pr-12",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "fas fa-file-alt text-xl"
-                })
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-                className: "text-3xl font-semibold",
-                children: "Panel de administraci\xF3n"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                className: "mt-4 text-lg leading-relaxed text-blueGray-500",
-                children: "Da seguimiento a tus invitaciones con el panel de administraci\xF3n mas completo, revisa quien ha confirmado su asistencia y muchas funcionalidades m\xE1s."
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
-                className: "list-none mt-6",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-                  className: "py-2",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "flex items-center",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                        className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3",
-                        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                          className: "fas fa-fingerprint"
-                        })
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                        className: "text-blueGray-500",
-                        children: "Confirmaci\xF3n de asistencia RVSP"
-                      })
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-                  className: "py-2",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "flex items-center",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                        className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3",
-                        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                          className: "fab fa-html5"
-                        })
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                        className: "text-blueGray-500",
-                        children: "Registro de asistencia con QR"
-                      })
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-                  className: "py-2",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "flex items-center",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                        className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3",
-                        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                          className: "far fa-paper-plane"
-                        })
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                        className: "text-blueGray-500",
-                        children: "Estadisticas de invitaciones"
-                      })
-                    })]
-                  })
-                })]
-              })]
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-              alt: "...",
-              className: "max-w-full rounded-lg shadow-xl",
-              style: {
-                transform: "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
-              },
-              src: "/img/documentation.png"
-            })
-          })]
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "justify-center text-center flex flex-wrap mt-24",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "w-full md:w-6/12 px-12 md:px-4",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h2", {
-            className: "font-semibold text-4xl",
-            children: "Dise\xF1os hermosos de invitaciones"
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-            className: "text-lg leading-relaxed mt-4 mb-4 text-blueGray-500",
-            children: "Elige entre varios dise\xF1os que se adaptan a todo tipo de eventos, tenemos plantillas elegantes, divertidas, formales y muy especiales para toda ocaci\xF3n, si no encuentras lo que buscas puedes solicitar un dise\xF1o personalizado."
-          })]
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("section", {
-      className: "block relative z-1 bg-blueGray-600",
-      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "justify-center flex flex-wrap",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full lg:w-12/12 px-4  -mt-24",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "flex flex-wrap",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
-                  className: "text-xl font-semibold pb-4 text-center",
-                  children: "Registro RSVP"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-                  href: "/auth/login",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                    className: "hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150",
-                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                      alt: "...",
-                      className: "align-middle border-none max-w-full h-auto rounded-lg",
-                      src: "/img/login.jpg"
-                    })
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
-                  className: "text-xl font-semibold pb-4 text-center",
-                  children: "Invitaci\xF3n"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-                  href: "/profile",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                    className: "hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150",
-                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                      alt: "...",
-                      className: "align-middle border-none max-w-full h-auto rounded-lg",
-                      src: "/img/profile.jpg"
-                    })
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
-                  className: "text-xl font-semibold pb-4 text-center",
-                  children: "Perfil del evento"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-                  href: "/landing",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                    className: "hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150",
-                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                      alt: "...",
-                      className: "align-middle border-none max-w-full h-auto rounded-lg",
-                      src: "/img/landing.jpg"
-                    })
-                  })
-                })]
-              })]
-            })
-          })
-        })
-      })
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "pb-16 bg-blueGray-200 relative pt-32",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20",
-        style: {
-          transform: "translateZ(0)"
-        },
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("svg", {
-          className: "absolute bottom-0 overflow-hidden",
-          xmlns: "http://www.w3.org/2000/svg",
-          preserveAspectRatio: "none",
-          version: "1.1",
-          viewBox: "0 0 2560 100",
-          x: "0",
-          y: "0",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("polygon", {
-            className: "text-blueGray-200 fill-current",
-            points: "2560 0 2560 100 0 100"
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "w-full text-center lg:w-8/12",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-4xl text-center",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                role: "img",
-                "aria-label": "love",
-                children: "\uD83D\uDE0D"
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-              className: "font-semibold text-3xl",
-              children: "Comentarios de nuestros usuarios"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-blueGray-500 text-lg leading-relaxed mt-4 mb-4",
-              children: "Me encanto la aplicaci\xF3n, nunca fue tan sencillo realizar mis invitaciones y mantener el control de mi evento."
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "sm:block flex flex-col mt-10",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                href: "/auth/login",
-                className: "get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150",
-                children: "Crear invitaci\xF3n"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-                href: "/auth/login",
-                target: "_blank",
-                className: "github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "fab fa-github text-lg mr-1"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                  children: "Solicitar m\xE1s informaci\xF3n"
-                })]
-              })]
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "text-center mt-16"
-            })]
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(Footer["a" /* default */], {})]
-  });
-}
 
 /***/ }),
 
@@ -3483,6 +2525,729 @@ function parseRelativeUrl(url, base) {
 
 /***/ }),
 
+/***/ "i6E2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ Admin; });
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__("F5FC");
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "@popperjs/core"
+var core_ = __webpack_require__("pccx");
+
+// CONCATENATED MODULE: ./components/Dropdowns/UserDropdown.js
+
+
+
+
+
+
+const UserDropdown = () => {
+  // dropdown props
+  const [dropdownPopoverShow, setDropdownPopoverShow] = external_react_default.a.useState(false);
+  const btnDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
+  const popoverDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
+
+  const openDropdownPopover = () => {
+    Object(core_["createPopper"])(btnDropdownRef.current, popoverDropdownRef.current, {
+      placement: "bottom-start"
+    });
+    setDropdownPopoverShow(true);
+  };
+
+  const closeDropdownPopover = () => {
+    setDropdownPopoverShow(false);
+  };
+
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+      className: "text-blueGray-500 block",
+      href: "#pablo",
+      ref: btnDropdownRef,
+      onClick: e => {
+        e.preventDefault();
+        dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
+      },
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "items-center flex",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+          className: "w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
+            alt: "...",
+            className: "w-full rounded-full align-middle border-none shadow-lg",
+            src: "/img/team-1-800x800.jpg"
+          })
+        })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      ref: popoverDropdownRef,
+      className: (dropdownPopoverShow ? "block " : "hidden ") + "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Action"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Another action"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Something else here"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "h-0 my-2 border border-solid border-blueGray-100"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Seprated link"
+      })]
+    })]
+  });
+};
+
+/* harmony default export */ var Dropdowns_UserDropdown = (UserDropdown);
+// CONCATENATED MODULE: ./components/Navbars/AdminNavbar.js
+
+
+
+
+
+function Navbar() {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("nav", {
+      className: "absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-nowrap md:justify-start flex items-center p-4",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "w-full mx-autp items-center flex justify-between md:flex-nowrap flex-wrap md:px-10 px-4",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+          className: "text-white text-sm uppercase hidden lg:inline-block font-semibold",
+          href: "#pablo",
+          onClick: e => e.preventDefault(),
+          children: "Dashboard"
+        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("form", {
+          className: "md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+            className: "relative flex w-full flex-wrap items-stretch",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+              className: "z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                className: "fas fa-search"
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("input", {
+              type: "text",
+              placeholder: "Search here...",
+              className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
+            })]
+          })
+        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("ul", {
+          className: "flex-col md:flex-row list-none items-center hidden md:flex",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(Dropdowns_UserDropdown, {})
+        })]
+      })
+    })
+  });
+}
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+
+// EXTERNAL MODULE: external "next/router"
+var router_ = __webpack_require__("4Q3z");
+
+// CONCATENATED MODULE: ./components/Dropdowns/NotificationDropdown.js
+
+
+
+
+
+
+const NotificationDropdown = () => {
+  // dropdown props
+  const [dropdownPopoverShow, setDropdownPopoverShow] = external_react_default.a.useState(false);
+  const btnDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
+  const popoverDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
+
+  const openDropdownPopover = () => {
+    Object(core_["createPopper"])(btnDropdownRef.current, popoverDropdownRef.current, {
+      placement: "bottom-start"
+    });
+    setDropdownPopoverShow(true);
+  };
+
+  const closeDropdownPopover = () => {
+    setDropdownPopoverShow(false);
+  };
+
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+      className: "text-blueGray-500 block py-1 px-3",
+      href: "#pablo",
+      ref: btnDropdownRef,
+      onClick: e => {
+        e.preventDefault();
+        dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
+      },
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+        className: "fas fa-bell"
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      ref: popoverDropdownRef,
+      className: (dropdownPopoverShow ? "block " : "hidden ") + "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Action"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Another action"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Something else here"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "h-0 my-2 border border-solid border-blueGray-100"
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+        href: "#pablo",
+        className: "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700",
+        onClick: e => e.preventDefault(),
+        children: "Seprated link"
+      })]
+    })]
+  });
+};
+
+/* harmony default export */ var Dropdowns_NotificationDropdown = (NotificationDropdown);
+// CONCATENATED MODULE: ./components/Sidebar/Sidebar.js
+
+
+
+
+
+
+
+
+function Sidebar() {
+  const [collapseShow, setCollapseShow] = external_react_default.a.useState("hidden");
+  const router = Object(router_["useRouter"])();
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("nav", {
+      className: "md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+          className: "cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent",
+          type: "button",
+          onClick: () => setCollapseShow("bg-white m-2 py-3 px-6"),
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+            className: "fas fa-bars"
+          })
+        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+          href: "/",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+            href: "#pablo",
+            className: "md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0",
+            children: "Notus NextJS"
+          })
+        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+          className: "md:hidden items-center flex flex-wrap list-none",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+            className: "inline-block relative",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(Dropdowns_NotificationDropdown, {})
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+            className: "inline-block relative",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(Dropdowns_UserDropdown, {})
+          })]
+        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded " + collapseShow,
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+              className: "flex flex-wrap",
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                className: "w-6/12",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                  href: "/",
+                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                    href: "#pablo",
+                    className: "md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0",
+                    children: "Notus NextJS"
+                  })
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                className: "w-6/12 flex justify-end",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+                  type: "button",
+                  className: "cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent",
+                  onClick: () => setCollapseShow("hidden"),
+                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-times"
+                  })
+                })
+              })]
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("form", {
+            className: "mt-6 mb-4 md:hidden",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+              className: "mb-3 pt-0",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("input", {
+                type: "text",
+                placeholder: "Search",
+                className: "border-0 px-3 py-2 h-12 border border-solid  border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+              })
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("hr", {
+            className: "my-4 md:min-w-full"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
+            className: "md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline",
+            children: "Admin Layout Pages"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+            className: "md:flex-col md:min-w-full flex flex-col list-none",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/admin/dashboard",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-xs uppercase py-3 font-bold block " + (router.pathname.indexOf("/admin/dashboard") !== -1 ? "text-lightBlue-500 hover:text-lightBlue-600" : "text-blueGray-700 hover:text-blueGray-500"),
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-tv mr-2 text-sm " + (router.pathname.indexOf("/admin/dashboard") !== -1 ? "opacity-75" : "text-blueGray-300")
+                  }), " ", "Dashboard"]
+                })
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/admin/settings",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-xs uppercase py-3 font-bold block " + (router.pathname.indexOf("/admin/settings") !== -1 ? "text-lightBlue-500 hover:text-lightBlue-600" : "text-blueGray-700 hover:text-blueGray-500"),
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-tools mr-2 text-sm " + (router.pathname.indexOf("/admin/settings") !== -1 ? "opacity-75" : "text-blueGray-300")
+                  }), " ", "Settings"]
+                })
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/admin/tables",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-xs uppercase py-3 font-bold block " + (router.pathname.indexOf("/admin/tables") !== -1 ? "text-lightBlue-500 hover:text-lightBlue-600" : "text-blueGray-700 hover:text-blueGray-500"),
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-table mr-2 text-sm " + (router.pathname.indexOf("/admin/tables") !== -1 ? "opacity-75" : "text-blueGray-300")
+                  }), " ", "Tables"]
+                })
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/admin/maps",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-xs uppercase py-3 font-bold block " + (router.pathname.indexOf("/admin/maps") !== -1 ? "text-lightBlue-500 hover:text-lightBlue-600" : "text-blueGray-700 hover:text-blueGray-500"),
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-map-marked mr-2 text-sm " + (router.pathname.indexOf("/admin/maps") !== -1 ? "opacity-75" : "text-blueGray-300")
+                  }), " ", "Maps"]
+                })
+              })
+            })]
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("hr", {
+            className: "my-4 md:min-w-full"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
+            className: "md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline",
+            children: "Auth Layout Pages"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+            className: "md:flex-col md:min-w-full flex flex-col list-none md:mb-4",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/auth/login",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-fingerprint text-blueGray-400 mr-2 text-sm"
+                  }), " ", "Login"]
+                })
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/auth/register",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"
+                  }), " ", "Register"]
+                })
+              })
+            })]
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("hr", {
+            className: "my-4 md:min-w-full"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
+            className: "md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline",
+            children: "No Layout Pages"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+            className: "md:flex-col md:min-w-full flex flex-col list-none md:mb-4",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/landing",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-newspaper text-blueGray-400 mr-2 text-sm"
+                  }), " ", "Landing Page"]
+                })
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+                href: "/profile",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                  href: "#pablo",
+                  className: "text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                    className: "fas fa-user-circle text-blueGray-400 mr-2 text-sm"
+                  }), " ", "Profile Page"]
+                })
+              })
+            })]
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("hr", {
+            className: "my-4 md:min-w-full"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
+            className: "md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline",
+            children: "Documentation"
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+            className: "md:flex-col md:min-w-full flex flex-col list-none md:mb-4",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-paint-brush mr-2 text-blueGray-300 text-base"
+                }), "Styles"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fab fa-css3-alt mr-2 text-blueGray-300 text-base"
+                }), "CSS Components"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fab fa-angular mr-2 text-blueGray-300 text-base"
+                }), "Angular"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fab fa-js-square mr-2 text-blueGray-300 text-base"
+                }), "Javascript"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fab fa-react mr-2 text-blueGray-300 text-base"
+                }), "NextJS"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fab fa-react mr-2 text-blueGray-300 text-base"
+                }), "React"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-link mr-2 text-blueGray-300 text-base"
+                }), "Svelte"]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "inline-flex",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                href: "https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus",
+                target: "_blank",
+                className: "text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fab fa-vuejs mr-2 text-blueGray-300 text-base"
+                }), "VueJS"]
+              })
+            })]
+          })]
+        })]
+      })
+    })
+  });
+}
+// CONCATENATED MODULE: ./components/Cards/CardStats.js
+
+
+
+
+function CardStats({
+  statSubtitle,
+  statTitle,
+  statArrow,
+  statPercent,
+  statPercentColor,
+  statDescripiron,
+  statIconName,
+  statIconColor
+}) {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+      className: "relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "flex-auto p-4",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "flex flex-wrap",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+            className: "relative w-full pr-4 max-w-full flex-grow flex-1",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
+              className: "text-blueGray-400 uppercase font-bold text-xs",
+              children: statSubtitle
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+              className: "font-semibold text-xl text-blueGray-700",
+              children: statTitle
+            })]
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "relative w-auto pl-4 flex-initial",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+              className: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full " + statIconColor,
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                className: statIconName
+              })
+            })
+          })]
+        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+          className: "text-sm text-blueGray-400 mt-4",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("span", {
+            className: statPercentColor + " mr-2",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+              className: statArrow === "up" ? "fas fa-arrow-up" : statArrow === "down" ? "fas fa-arrow-down" : ""
+            }), " ", statPercent, "%"]
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+            className: "whitespace-nowrap",
+            children: statDescripiron
+          })]
+        })]
+      })
+    })
+  });
+}
+CardStats.defaultProps = {
+  statSubtitle: "Traffic",
+  statTitle: "350,897",
+  statArrow: "up",
+  statPercent: "3.48",
+  statPercentColor: "text-emerald-500",
+  statDescripiron: "Since last month",
+  statIconName: "far fa-chart-bar",
+  statIconColor: "bg-red-500"
+};
+// CONCATENATED MODULE: ./components/Headers/HeaderStats.js
+
+
+
+ // components
+
+
+function HeaderStats() {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+      className: "relative bg-blueGray-800 md:pt-32 pb-32 pt-12",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "px-4 md:px-10 mx-auto w-full",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+            className: "flex flex-wrap",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardStats, {
+                statSubtitle: "TRAFFIC",
+                statTitle: "350,897",
+                statArrow: "up",
+                statPercent: "3.48",
+                statPercentColor: "text-emerald-500",
+                statDescripiron: "Since last month",
+                statIconName: "far fa-chart-bar",
+                statIconColor: "bg-red-500"
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardStats, {
+                statSubtitle: "NEW USERS",
+                statTitle: "2,356",
+                statArrow: "down",
+                statPercent: "3.48",
+                statPercentColor: "text-red-500",
+                statDescripiron: "Since last week",
+                statIconName: "fas fa-chart-pie",
+                statIconColor: "bg-orange-500"
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardStats, {
+                statSubtitle: "SALES",
+                statTitle: "924",
+                statArrow: "down",
+                statPercent: "1.10",
+                statPercentColor: "text-orange-500",
+                statDescripiron: "Since yesterday",
+                statIconName: "fas fa-users",
+                statIconColor: "bg-pink-500"
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+              className: "w-full lg:w-6/12 xl:w-3/12 px-4",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardStats, {
+                statSubtitle: "PERFORMANCE",
+                statTitle: "49,65%",
+                statArrow: "up",
+                statPercent: "12",
+                statPercentColor: "text-emerald-500",
+                statDescripiron: "Since last month",
+                statIconName: "fas fa-percent",
+                statIconColor: "bg-lightBlue-500"
+              })
+            })]
+          })
+        })
+      })
+    })
+  });
+}
+// CONCATENATED MODULE: ./components/Footers/FooterAdmin.js
+
+
+
+
+function FooterAdmin() {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("footer", {
+      className: "block py-4",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "container mx-auto px-4",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("hr", {
+          className: "mb-4 border-b-1 border-blueGray-200"
+        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "flex flex-wrap items-center md:justify-between justify-center",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "w-full md:w-4/12 px-4",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+              className: "text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left",
+              children: ["Copyright \xA9 ", new Date().getFullYear(), " ", /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                href: "https://www.creative-tim.com?ref=nnjs-footer-admin",
+                className: "text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1",
+                children: "Creative Tim"
+              })]
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "w-full md:w-8/12 px-4",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+              className: "flex flex-wrap list-none md:justify-end  justify-center",
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "https://www.creative-tim.com?ref=nnjs-footer-admin",
+                  className: "text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3",
+                  children: "Creative Tim"
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "https://www.creative-tim.com/presentation?ref=nnjs-footer-admin",
+                  className: "text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3",
+                  children: "About Us"
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "http://blog.creative-tim.com?ref=nnjs-footer-admin",
+                  className: "text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3",
+                  children: "Blog"
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-admin",
+                  className: "text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3",
+                  children: "MIT License"
+                })
+              })]
+            })
+          })]
+        })]
+      })
+    })
+  });
+}
+// CONCATENATED MODULE: ./layouts/Admin.js
+
+
+
+ // components
+
+
+
+
+
+function Admin({
+  children
+}) {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(Sidebar, {}), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "relative md:ml-64 bg-blueGray-100",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(Navbar, {}), /*#__PURE__*/Object(jsx_runtime_["jsx"])(HeaderStats, {}), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "px-4 md:px-10 mx-auto w-full -m-24",
+        children: [children, /*#__PURE__*/Object(jsx_runtime_["jsx"])(FooterAdmin, {})]
+      })]
+    })]
+  });
+}
+
+/***/ }),
+
 /***/ "nOHt":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3639,6 +3404,644 @@ function makePublicRouterInstance(router) {
 /***/ (function(module, exports) {
 
 module.exports = require("@popperjs/core");
+
+/***/ }),
+
+/***/ "sUSu":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ Dashboard; });
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__("F5FC");
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "chart.js"
+var external_chart_js_ = __webpack_require__("HAYV");
+var external_chart_js_default = /*#__PURE__*/__webpack_require__.n(external_chart_js_);
+
+// CONCATENATED MODULE: ./components/Cards/CardLineChart.js
+
+
+
+
+
+function CardLineChart() {
+  external_react_default.a.useEffect(() => {
+    var config = {
+      type: "line",
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+          label: new Date().getFullYear(),
+          backgroundColor: "#4c51bf",
+          borderColor: "#4c51bf",
+          data: [65, 78, 66, 44, 56, 67, 75],
+          fill: false
+        }, {
+          label: new Date().getFullYear() - 1,
+          fill: false,
+          backgroundColor: "#fff",
+          borderColor: "#fff",
+          data: [40, 68, 86, 74, 56, 60, 87]
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        title: {
+          display: false,
+          text: "Sales Charts",
+          fontColor: "white"
+        },
+        legend: {
+          labels: {
+            fontColor: "white"
+          },
+          align: "end",
+          position: "bottom"
+        },
+        tooltips: {
+          mode: "index",
+          intersect: false
+        },
+        hover: {
+          mode: "nearest",
+          intersect: true
+        },
+        scales: {
+          xAxes: [{
+            ticks: {
+              fontColor: "rgba(255,255,255,.7)"
+            },
+            display: true,
+            scaleLabel: {
+              display: false,
+              labelString: "Month",
+              fontColor: "white"
+            },
+            gridLines: {
+              display: false,
+              borderDash: [2],
+              borderDashOffset: [2],
+              color: "rgba(33, 37, 41, 0.3)",
+              zeroLineColor: "rgba(0, 0, 0, 0)",
+              zeroLineBorderDash: [2],
+              zeroLineBorderDashOffset: [2]
+            }
+          }],
+          yAxes: [{
+            ticks: {
+              fontColor: "rgba(255,255,255,.7)"
+            },
+            display: true,
+            scaleLabel: {
+              display: false,
+              labelString: "Value",
+              fontColor: "white"
+            },
+            gridLines: {
+              borderDash: [3],
+              borderDashOffset: [3],
+              drawBorder: false,
+              color: "rgba(255, 255, 255, 0.15)",
+              zeroLineColor: "rgba(33, 37, 41, 0)",
+              zeroLineBorderDash: [2],
+              zeroLineBorderDashOffset: [2]
+            }
+          }]
+        }
+      }
+    };
+    var ctx = document.getElementById("line-chart").getContext("2d");
+    window.myLine = new external_chart_js_default.a(ctx, config);
+  }, []);
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blueGray-700",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "rounded-t mb-0 px-4 py-3 bg-transparent",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+          className: "flex flex-wrap items-center",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+            className: "relative w-full max-w-full flex-grow flex-1",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
+              className: "uppercase text-blueGray-100 mb-1 text-xs font-semibold",
+              children: "Overview"
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h2", {
+              className: "text-white text-xl font-semibold",
+              children: "Sales value"
+            })]
+          })
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "p-4 flex-auto",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+          className: "relative h-350-px",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("canvas", {
+            id: "line-chart"
+          })
+        })
+      })]
+    })
+  });
+}
+// CONCATENATED MODULE: ./components/Cards/CardBarChart.js
+
+
+
+
+
+function CardBarChart() {
+  external_react_default.a.useEffect(() => {
+    let config = {
+      type: "bar",
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+          label: new Date().getFullYear(),
+          backgroundColor: "#ed64a6",
+          borderColor: "#ed64a6",
+          data: [30, 78, 56, 34, 100, 45, 13],
+          fill: false,
+          barThickness: 8
+        }, {
+          label: new Date().getFullYear() - 1,
+          fill: false,
+          backgroundColor: "#4c51bf",
+          borderColor: "#4c51bf",
+          data: [27, 68, 86, 74, 10, 4, 87],
+          barThickness: 8
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        title: {
+          display: false,
+          text: "Orders Chart"
+        },
+        tooltips: {
+          mode: "index",
+          intersect: false
+        },
+        hover: {
+          mode: "nearest",
+          intersect: true
+        },
+        legend: {
+          labels: {
+            fontColor: "rgba(0,0,0,.4)"
+          },
+          align: "end",
+          position: "bottom"
+        },
+        scales: {
+          xAxes: [{
+            display: false,
+            scaleLabel: {
+              display: true,
+              labelString: "Month"
+            },
+            gridLines: {
+              borderDash: [2],
+              borderDashOffset: [2],
+              color: "rgba(33, 37, 41, 0.3)",
+              zeroLineColor: "rgba(33, 37, 41, 0.3)",
+              zeroLineBorderDash: [2],
+              zeroLineBorderDashOffset: [2]
+            }
+          }],
+          yAxes: [{
+            display: true,
+            scaleLabel: {
+              display: false,
+              labelString: "Value"
+            },
+            gridLines: {
+              borderDash: [2],
+              drawBorder: false,
+              borderDashOffset: [2],
+              color: "rgba(33, 37, 41, 0.2)",
+              zeroLineColor: "rgba(33, 37, 41, 0.15)",
+              zeroLineBorderDash: [2],
+              zeroLineBorderDashOffset: [2]
+            }
+          }]
+        }
+      }
+    };
+    let ctx = document.getElementById("bar-chart").getContext("2d");
+    window.myBar = new external_chart_js_default.a(ctx, config);
+  }, []);
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "rounded-t mb-0 px-4 py-3 bg-transparent",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+          className: "flex flex-wrap items-center",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+            className: "relative w-full max-w-full flex-grow flex-1",
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
+              className: "uppercase text-blueGray-400 mb-1 text-xs font-semibold",
+              children: "Performance"
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h2", {
+              className: "text-blueGray-700 text-xl font-semibold",
+              children: "Total orders"
+            })]
+          })
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "p-4 flex-auto",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+          className: "relative h-350-px",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("canvas", {
+            id: "bar-chart"
+          })
+        })
+      })]
+    })
+  });
+}
+// CONCATENATED MODULE: ./components/Cards/CardPageVisits.js
+
+
+
+ // components
+
+function CardPageVisits() {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "rounded-t mb-0 px-4 py-3 border-0",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "flex flex-wrap items-center",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "relative w-full px-4 max-w-full flex-grow flex-1",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
+              className: "font-semibold text-base text-blueGray-700",
+              children: "Page visits"
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "relative w-full px-4 max-w-full flex-grow flex-1 text-right",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+              className: "bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
+              type: "button",
+              children: "See all"
+            })
+          })]
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "block w-full overflow-x-auto",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("table", {
+          className: "items-center w-full bg-transparent border-collapse",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("thead", {
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left",
+                children: "Page name"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left",
+                children: "Visitors"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left",
+                children: "Unique users"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left",
+                children: "Bounce rate"
+              })]
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tbody", {
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "/argon/"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "4,569"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "340"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-arrow-up text-emerald-500 mr-4"
+                }), "46,53%"]
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "/argon/index.html"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "3,985"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "319"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-arrow-down text-orange-500 mr-4"
+                }), "46,53%"]
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "/argon/charts.html"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "3,513"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "294"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-arrow-down text-orange-500 mr-4"
+                }), "36,49%"]
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "/argon/tables.html"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "2,050"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "147"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-arrow-up text-emerald-500 mr-4"
+                }), "50,87%"]
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "/argon/profile.html"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "1,795"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "190"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "fas fa-arrow-down text-red-500 mr-4"
+                }), "46,53%"]
+              })]
+            })]
+          })]
+        })
+      })]
+    })
+  });
+}
+// CONCATENATED MODULE: ./components/Cards/CardSocialTraffic.js
+
+
+
+ // components
+
+function CardSocialTraffic() {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "rounded-t mb-0 px-4 py-3 border-0",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "flex flex-wrap items-center",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "relative w-full px-4 max-w-full flex-grow flex-1",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
+              className: "font-semibold text-base text-blueGray-700",
+              children: "Social traffic"
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "relative w-full px-4 max-w-full flex-grow flex-1 text-right",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+              className: "bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150",
+              type: "button",
+              children: "See all"
+            })
+          })]
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "block w-full overflow-x-auto",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("table", {
+          className: "items-center w-full bg-transparent border-collapse",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("thead", {
+            className: "thead-light",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left",
+                children: "Referral"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left",
+                children: "Visitors"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px"
+              })]
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tbody", {
+            children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "Facebook"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "1,480"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+                  className: "flex items-center",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+                    className: "mr-2",
+                    children: "60%"
+                  }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                    className: "relative w-full",
+                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                      className: "overflow-hidden h-2 text-xs flex rounded bg-red-200",
+                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                        style: {
+                          width: "60%"
+                        },
+                        className: "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+                      })
+                    })
+                  })]
+                })
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "Facebook"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "5,480"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+                  className: "flex items-center",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+                    className: "mr-2",
+                    children: "70%"
+                  }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                    className: "relative w-full",
+                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                      className: "overflow-hidden h-2 text-xs flex rounded bg-emerald-200",
+                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                        style: {
+                          width: "70%"
+                        },
+                        className: "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+                      })
+                    })
+                  })]
+                })
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "Google"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "4,807"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+                  className: "flex items-center",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+                    className: "mr-2",
+                    children: "80%"
+                  }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                    className: "relative w-full",
+                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                      className: "overflow-hidden h-2 text-xs flex rounded bg-purple-200",
+                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                        style: {
+                          width: "80%"
+                        },
+                        className: "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
+                      })
+                    })
+                  })]
+                })
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "Instagram"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "3,678"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+                  className: "flex items-center",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+                    className: "mr-2",
+                    children: "75%"
+                  }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                    className: "relative w-full",
+                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                      className: "overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200",
+                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                        style: {
+                          width: "75%"
+                        },
+                        className: "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
+                      })
+                    })
+                  })]
+                })
+              })]
+            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("tr", {
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("th", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left",
+                children: "twitter"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: "2,645"
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("td", {
+                className: "border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
+                children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+                  className: "flex items-center",
+                  children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+                    className: "mr-2",
+                    children: "30%"
+                  }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                    className: "relative w-full",
+                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                      className: "overflow-hidden h-2 text-xs flex rounded bg-orange-200",
+                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+                        style: {
+                          width: "30%"
+                        },
+                        className: "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+                      })
+                    })
+                  })]
+                })
+              })]
+            })]
+          })]
+        })
+      })]
+    })
+  });
+}
+// EXTERNAL MODULE: ./layouts/Admin.js + 7 modules
+var Admin = __webpack_require__("i6E2");
+
+// CONCATENATED MODULE: ./pages/admin/dashboard.js
+
+
+
+ // components
+
+
+
+
+ // layout for page
+
+
+function Dashboard() {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "flex flex-wrap",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "w-full xl:w-8/12 mb-12 xl:mb-0 px-4",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardLineChart, {})
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "w-full xl:w-4/12 px-4",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardBarChart, {})
+      })]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+      className: "flex flex-wrap mt-4",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "w-full xl:w-8/12 mb-12 xl:mb-0 px-4",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardPageVisits, {})
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+        className: "w-full xl:w-4/12 px-4",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(CardSocialTraffic, {})
+      })]
+    })]
+  });
+}
+Dashboard.layout = Admin["a" /* default */];
 
 /***/ }),
 

@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -171,14 +171,6 @@ const cancelIdleCallback = typeof self !== 'undefined' && self.cancelIdleCallbac
 };
 
 exports.cancelIdleCallback = cancelIdleCallback;
-
-/***/ }),
-
-/***/ 10:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("RNiq");
-
 
 /***/ }),
 
@@ -461,6 +453,161 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
+/***/ 8:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("891V");
+
+
+/***/ }),
+
+/***/ "891V":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Login; });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("F5FC");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var layouts_Auth_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("F98f");
+
+
+
+
+ // layout for page
+
+
+function Login() {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+      className: "container mx-auto px-4 h-full",
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        className: "flex content-center items-center justify-center h-full",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+          className: "w-full lg:w-4/12 px-4",
+          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            className: "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0",
+            children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              className: "rounded-t mb-0 px-6 py-6",
+              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+                className: "text-center mb-3",
+                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h6", {
+                  className: "text-blueGray-500 text-sm font-bold",
+                  children: "Sign in with"
+                })
+              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+                className: "btn-wrapper text-center",
+                children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("button", {
+                  className: "bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150",
+                  type: "button",
+                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("img", {
+                    alt: "...",
+                    className: "w-5 mr-1",
+                    src: "/img/github.svg"
+                  }), "Github"]
+                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("button", {
+                  className: "bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150",
+                  type: "button",
+                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("img", {
+                    alt: "...",
+                    className: "w-5 mr-1",
+                    src: "/img/google.svg"
+                  }), "Google"]
+                })]
+              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("hr", {
+                className: "mt-6 border-b-1 border-blueGray-300"
+              })]
+            }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              className: "flex-auto px-4 lg:px-10 py-10 pt-0",
+              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+                className: "text-blueGray-400 text-center mb-3 font-bold",
+                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("small", {
+                  children: "Or sign in with credentials"
+                })
+              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("form", {
+                children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+                  className: "relative w-full mb-3",
+                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("label", {
+                    className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
+                    htmlFor: "grid-password",
+                    children: "Email"
+                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("input", {
+                    type: "email",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+                    placeholder: "Email"
+                  })]
+                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+                  className: "relative w-full mb-3",
+                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("label", {
+                    className: "block uppercase text-blueGray-600 text-xs font-bold mb-2",
+                    htmlFor: "grid-password",
+                    children: "Password"
+                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("input", {
+                    type: "password",
+                    className: "border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150",
+                    placeholder: "Password"
+                  })]
+                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+                  children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("label", {
+                    className: "inline-flex items-center cursor-pointer",
+                    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("input", {
+                      id: "customCheckLogin",
+                      type: "checkbox",
+                      className: "form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+                    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                      className: "ml-2 text-sm font-semibold text-blueGray-600",
+                      children: "Remember me"
+                    })]
+                  })
+                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+                  className: "text-center mt-6",
+                  children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
+                    className: "bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150",
+                    type: "button",
+                    children: "Sign In"
+                  })
+                })]
+              })]
+            })]
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            className: "flex flex-wrap mt-6 relative",
+            children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+              className: "w-1/2",
+              children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+                href: "#pablo",
+                onClick: e => e.preventDefault(),
+                className: "text-blueGray-200",
+                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("small", {
+                  children: "Forgot password?"
+                })
+              })
+            }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+              className: "w-1/2 text-right",
+              children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+                href: "/auth/register",
+                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+                  href: "#pablo",
+                  className: "text-blueGray-200",
+                  children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("small", {
+                    children: "Create new account"
+                  })
+                })
+              })
+            })]
+          })]
+        })
+      })
+    })
+  });
+}
+Login.layout = layouts_Auth_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"];
+
+/***/ }),
+
 /***/ "AroE":
 /***/ (function(module, exports) {
 
@@ -471,177 +618,6 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
-
-/***/ }),
-
-/***/ "BwTs":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Footer; });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("F5FC");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-
-function Footer() {
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
-    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("footer", {
-      className: "relative bg-blueGray-200 pt-8 pb-6",
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20",
-        style: {
-          transform: "translateZ(0)"
-        },
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("svg", {
-          className: "absolute bottom-0 overflow-hidden",
-          xmlns: "http://www.w3.org/2000/svg",
-          preserveAspectRatio: "none",
-          version: "1.1",
-          viewBox: "0 0 2560 100",
-          x: "0",
-          y: "0",
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("polygon", {
-            className: "text-blueGray-200 fill-current",
-            points: "2560 0 2560 100 0 100"
-          })
-        })
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        className: "container mx-auto px-4",
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-          className: "flex flex-wrap text-center lg:text-left",
-          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-            className: "w-full lg:w-6/12 px-4",
-            children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {
-              className: "text-3xl font-semibold",
-              children: "Siguenos en redes"
-            }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h5", {
-              className: "text-lg mt-0 mb-2 text-blueGray-600",
-              children: "Siguenos en nuestras redes y conoce mas detalles de nuestros servicios."
-            }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-              className: "mt-6 lg:mb-0 mb-6",
-              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-twitter"
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-facebook-square"
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-dribbble"
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-                className: "bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2",
-                type: "button",
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("i", {
-                  className: "fab fa-github"
-                })
-              })]
-            })]
-          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-            className: "w-full lg:w-6/12 px-4",
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-              className: "flex flex-wrap items-top mb-6",
-              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4 ml-auto",
-                children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-                  className: "block uppercase text-blueGray-500 text-sm font-semibold mb-2",
-                  children: "Ligas"
-                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("ul", {
-                  className: "list-unstyled",
-                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Nosotros"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Blog"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Precios"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Servicios"
-                    })
-                  })]
-                })]
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-                  className: "block uppercase text-blueGray-500 text-sm font-semibold mb-2",
-                  children: "Otros recursos"
-                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("ul", {
-                  className: "list-unstyled",
-                  children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer",
-                      children: "MIT License"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Terminos y condiciones"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Aviso de privacidad"
-                    })
-                  }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                      className: "text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm",
-                      href: "/",
-                      children: "Cont\xE1ctanos"
-                    })
-                  })]
-                })]
-              })]
-            })
-          })]
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("hr", {
-          className: "my-6 border-blueGray-300"
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-          className: "flex flex-wrap items-center md:justify-between justify-center",
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-            className: "w-full md:w-4/12 px-4 mx-auto text-center",
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-              className: "text-sm text-blueGray-500 font-semibold py-1",
-              children: ["Copyright \xA9 ", new Date().getFullYear(), " App Invitaci\xF3n Digital by", " ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-                href: "/",
-                className: "text-blueGray-500 hover:text-blueGray-800",
-                children: "Dev@AlfredP"
-              }), "."]
-            })
-          })
-        })]
-      })]
-    })
-  });
-}
 
 /***/ }),
 
@@ -672,6 +648,116 @@ module.exports = _typeof;
 /***/ (function(module, exports) {
 
 module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "F98f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ Auth; });
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__("F5FC");
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+
+// EXTERNAL MODULE: ./components/Navbars/AuthNavbar.js + 1 modules
+var AuthNavbar = __webpack_require__("XGi6");
+
+// CONCATENATED MODULE: ./components/Footers/FooterSmall.js
+
+
+
+
+function FooterSmall(props) {
+  return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
+    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("footer", {
+      className: (props.absolute ? "absolute w-full bottom-0 bg-blueGray-800" : "relative") + " pb-6",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+        className: "container mx-auto px-4",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("hr", {
+          className: "mb-6 border-b-1 border-blueGray-600"
+        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "flex flex-wrap items-center md:justify-between justify-center",
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "w-full md:w-4/12 px-4",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+              className: "text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left",
+              children: ["Copyright \xA9 ", new Date().getFullYear(), " ", /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                href: "https://www.creative-tim.com?ref=nnjs-footer-small",
+                className: "text-white hover:text-blueGray-300 text-sm font-semibold py-1",
+                children: "Creative Tim"
+              })]
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+            className: "w-full md:w-8/12 px-4",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+              className: "flex flex-wrap list-none md:justify-end  justify-center",
+              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "https://www.creative-tim.com?ref=nnjs-footer-small",
+                  className: "text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3",
+                  children: "Creative Tim"
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "https://www.creative-tim.com/presentation?ref=nnjs-footer-small",
+                  className: "text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3",
+                  children: "About Us"
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "http://blog.creative-tim.com?ref=nnjs-footer-small",
+                  className: "text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3",
+                  children: "Blog"
+                })
+              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+                  href: "https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-small",
+                  className: "text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3",
+                  children: "MIT License"
+                })
+              })]
+            })
+          })]
+        })]
+      })
+    })
+  });
+}
+// CONCATENATED MODULE: ./layouts/Auth.js
+
+
+
+ // components
+
+
+
+function Auth({
+  children
+}) {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(AuthNavbar["a" /* default */], {
+      transparent: true
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("main", {
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
+        className: "relative w-full h-full py-40 min-h-screen",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+          className: "absolute top-0 w-full h-full bg-blueGray-800 bg-no-repeat bg-full",
+          style: {
+            backgroundImage: "url('/img/register_bg_2.png')"
+          }
+        }), children, /*#__PURE__*/Object(jsx_runtime_["jsx"])(FooterSmall, {
+          absolute: true
+        })]
+      })
+    })]
+  });
+}
 
 /***/ }),
 
@@ -968,15 +1054,47 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 /***/ }),
 
-/***/ "RNiq":
+/***/ "UhrY":
+/***/ (function(module, exports) {
+
+module.exports = require("next/dist/next-server/lib/router/utils/get-asset-path-from-route.js");
+
+/***/ }),
+
+/***/ "X24+":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.removePathTrailingSlash = removePathTrailingSlash;
+exports.normalizePathTrailingSlash = void 0;
+/**
+* Removes the trailing slash of a path if there is one. Preserves the root path `/`.
+*/
+
+function removePathTrailingSlash(path) {
+  return path.endsWith('/') && path !== '/' ? path.slice(0, -1) : path;
+}
+/**
+* Normalizes the trailing slash of a path according to the `trailingSlash` option
+* in `next.config.js`.
+*/
+
+
+const normalizePathTrailingSlash =  false ? undefined : removePathTrailingSlash;
+exports.normalizePathTrailingSlash = normalizePathTrailingSlash;
+
+/***/ }),
+
+/***/ "XGi6":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ Index; });
+__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ Navbar; });
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__("F5FC");
@@ -992,7 +1110,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: external "@popperjs/core"
 var core_ = __webpack_require__("pccx");
 
-// CONCATENATED MODULE: ./components/Dropdowns/IndexDropdown.js
+// CONCATENATED MODULE: ./components/Dropdowns/PagesDropdown.js
 
 
 
@@ -1000,7 +1118,7 @@ var core_ = __webpack_require__("pccx");
 
 
 
-const IndexDropdown = () => {
+const PagesDropdown = () => {
   // dropdown props
   const [dropdownPopoverShow, setDropdownPopoverShow] = external_react_default.a.useState(false);
   const btnDropdownRef = /*#__PURE__*/external_react_default.a.createRef();
@@ -1019,7 +1137,7 @@ const IndexDropdown = () => {
 
   return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
     children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-      className: "hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
+      className: "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
       href: "#pablo",
       ref: btnDropdownRef,
       onClick: e => {
@@ -1104,8 +1222,8 @@ const IndexDropdown = () => {
   });
 };
 
-/* harmony default export */ var Dropdowns_IndexDropdown = (IndexDropdown);
-// CONCATENATED MODULE: ./components/Navbars/IndexNavbar.js
+/* harmony default export */ var Dropdowns_PagesDropdown = (PagesDropdown);
+// CONCATENATED MODULE: ./components/Navbars/AuthNavbar.js
 
 
 
@@ -1117,7 +1235,7 @@ function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = external_react_default.a.useState(false);
   return /*#__PURE__*/Object(jsx_runtime_["jsx"])(jsx_runtime_["Fragment"], {
     children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("nav", {
-      className: "top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow",
+      className: "top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg",
       children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
         className: "container px-4 mx-auto flex flex-wrap items-center justify-between",
         children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
@@ -1125,681 +1243,93 @@ function Navbar(props) {
           children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
             href: "/",
             children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-              className: "text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase",
+              className: "text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase",
               href: "#pablo",
-              children: "Invitaci\xF3n Digital"
+              children: "Notus NextJS"
             })
           }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
             className: "cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none",
             type: "button",
             onClick: () => setNavbarOpen(!navbarOpen),
             children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-              className: "fas fa-bars"
+              className: "text-white fas fa-bars"
             })
           })]
-        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" + (navbarOpen ? " block" : " hidden"),
+        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+          className: "lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" + (navbarOpen ? " block rounded shadow-lg" : " hidden"),
           id: "example-navbar-warning",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("ul", {
+            className: "flex flex-col lg:flex-row list-none mr-auto",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "flex items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                className: "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
+                href: "https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-auth-navbar",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "lg:text-blueGray-200 text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"
+                }), " ", "Docs"]
+              })
+            })
+          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
             className: "flex flex-col lg:flex-row list-none lg:ml-auto",
             children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
               className: "flex items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(Dropdowns_PagesDropdown, {})
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "flex items-center",
               children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-                className: "hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
-                href: "/",
+                className: "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
+                href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F",
                 target: "_blank",
                 children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "text-blueGray-400 fab fa-facebook text-lg leading-lg "
+                  className: "lg:text-blueGray-200 text-blueGray-400 fab fa-facebook text-lg leading-lg "
                 }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
                   className: "lg:hidden inline-block ml-2",
-                  children: "Invitaci\xF3n digital facebook"
+                  children: "Share"
                 })]
               })
             }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
               className: "flex items-center",
               children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-                className: "hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
-                href: "/",
+                className: "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
+                href: "https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20NextJS%20UI%20Kit%20and%20Admin.%20Let%20Notus%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level.",
                 target: "_blank",
                 children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "text-blueGray-400 fab fa-instagram text-lg leading-lg "
+                  className: "lg:text-blueGray-200 text-blueGray-400 fab fa-twitter text-lg leading-lg "
                 }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
                   className: "lg:hidden inline-block ml-2",
-                  children: "Invitaci\xF3n digital instagram"
+                  children: "Tweet"
+                })]
+              })
+            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+              className: "flex items-center",
+              children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
+                className: "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold",
+                href: "https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-auth-navbar",
+                target: "_blank",
+                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
+                  className: "lg:text-blueGray-200 text-blueGray-400 fab fa-github text-lg leading-lg "
+                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+                  className: "lg:hidden inline-block ml-2",
+                  children: "Star"
                 })]
               })
             }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
               className: "flex items-center",
               children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("button", {
-                className: "bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150",
+                className: "bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150",
                 type: "button",
                 children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "fas fa-check"
-                }), " Iniciar"]
+                  className: "fas fa-arrow-alt-circle-down"
+                }), " Download"]
               })
             })]
-          })
+          })]
         })]
       })
     })
   });
 }
-// EXTERNAL MODULE: ./components/Footers/Footer.js
-var Footer = __webpack_require__("BwTs");
-
-// CONCATENATED MODULE: ./pages/index.js
-
-
-
-
-/* eslint-disable react/jsx-no-target-blank */
-
-
-
-
-function Index() {
-  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(jsx_runtime_["Fragment"], {
-    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(Navbar, {
-      fixed: true
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "header relative pt-16 items-center flex h-screen max-h-860-px",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto items-center flex flex-wrap",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "pt-32 sm:pt-0",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h2", {
-              className: "font-semibold text-4xl text-blueGray-600",
-              children: "Invitaci\xF3n digital - Crea tus propias invitaciones electr\xF3nicas gratis."
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
-              className: "mt-4 text-lg leading-relaxed text-blueGray-500",
-              children: ["APP Invitaci\xF3n digital es un sistema para crear invitaciones digitales para tus eventos con lista de invitados y c\xF3digos personalizados, puedes compartirlas por Whatsapp, Facebook o correo. Cada invitaci\xF3n es un boleto \xFAnico para ingresar al evento a trav\xE9s de un sistema de registro de asistencias escaneando los c\xF3digos QR.", " "]
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "mt-12",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                href: "/auth/login",
-                className: "get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150",
-                children: "Iniciar ahora"
-              })
-            })]
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-        className: "absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px",
-        src: "/img/pattern_nextjs.png",
-        alt: "..."
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "mt-48 md:mt-40 pb-40 relative bg-blueGray-100",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20",
-        style: {
-          transform: "translateZ(0)"
-        },
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("svg", {
-          className: "absolute bottom-0 overflow-hidden",
-          xmlns: "http://www.w3.org/2000/svg",
-          preserveAspectRatio: "none",
-          version: "1.1",
-          viewBox: "0 0 2560 100",
-          x: "0",
-          y: "0",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("polygon", {
-            className: "text-blueGray-100 fill-current",
-            points: "2560 0 2560 100 0 100"
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "flex flex-wrap items-center",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
-                className: "w-full align-middle rounded-t-lg"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("blockquote", {
-                className: "relative p-8 mb-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("svg", {
-                  preserveAspectRatio: "none",
-                  xmlns: "http://www.w3.org/2000/svg",
-                  viewBox: "0 0 583 95",
-                  className: "absolute left-0 w-full block h-95-px -top-94-px",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("polygon", {
-                    points: "-30,95 583,95 583,65",
-                    className: "text-blueGray-700 fill-current"
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                  className: "text-xl font-bold text-white",
-                  children: "La plataforma de invitaciones que lo tiene todo"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                  className: "text-md font-light mt-2 text-white",
-                  children: "Con el paquete de herramientas disponibles para tu evento tendr\xE1s de manea sencilla el control de tus invitados como nunca antes en un solo lugar."
-                })]
-              })]
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-6/12 px-4",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "flex flex-wrap",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full md:w-6/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col mt-4",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-sitemap"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Lista de invitados"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Crea tu lista de invitados con c\xF3digo \xFAnico para tener el control de asistencia."
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col min-w-0",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-drafting-compass"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Dise\xF1o de invitaciones"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Fantasticas plantillas personalizables de invitaciones a tu evento organizadas por categor\xEDa."
-                    })]
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full md:w-6/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col min-w-0 mt-4",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-newspaper"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Registro de asistencia"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Descarga la app para validar los c\xF3digos de invitados al evento y registrar su asistencia."
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                  className: "relative flex flex-col min-w-0",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "px-4 py-5 flex-auto",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white",
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                        className: "fas fa-file-alt"
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h6", {
-                      className: "text-xl mb-1 font-semibold",
-                      children: "Listado de asistencias"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "mb-4 text-blueGray-500",
-                      children: "Podr\xE1s descargar la lista de invitados que asistieron y que fueron registrados durante el evento."
-                    })]
-                  })
-                })]
-              })]
-            })
-          })]
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-        className: "container mx-auto overflow-hidden pb-20",
-        children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "flex flex-wrap items-center",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                className: "fas fa-sitemap text-xl"
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-              className: "text-3xl mb-2 font-semibold leading-normal",
-              children: "Lista de invitados"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
-              children: "Genera en tiempo real tus listas de invitados o importalas desde un CSV de Excel, podr\xE1s agregarlos y eliminarlos para tener visibilidad total de tus invitados y as\xED mejorar la planeacion de tu evento."
-            })]
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-5/12 px-4 mr-auto ml-auto mt-32",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "/img/component-profile-card.png",
-                className: "w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "/img/component-profile-card.png",
-                className: "w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                alt: "...",
-                src: "/img/component-profile-card.png",
-                className: "w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-              })]
-            })
-          })]
-        }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "flex flex-wrap items-center pt-32",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-6/12 px-4 mr-auto ml-auto mt-32",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "justify-center flex flex-wrap relative",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "my-4 w-full lg:w-6/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-red-600 shadow-lg rounded-lg text-center p-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-birthday-cake"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Cumplea\xF1os"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-heart"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Bodas"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-graduation-cap"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Graduaciones"
-                    })]
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "my-4 w-full lg:w-6/12 px-4 lg:mt-16",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-yellow-500 shadow-lg rounded-lg text-center p-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-crown"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "15 A\xF1os"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-ring"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Aniversarios"
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                  href: "https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index",
-                  target: "_blank",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                      className: "text-white text-5xl p-2 fas fa-glass-cheers"
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                      className: "text-lg text-white mt-4 font-semibold",
-                      children: "Fiestas"
-                    })]
-                  })
-                })]
-              })]
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                className: "fas fa-calendar-check text-xl"
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-              className: "text-3xl mb-2 font-semibold leading-normal",
-              children: "Para todo tipo de eventos"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600",
-              children: "Elige el dise\xF1o que mas se adapte a tu evento o sube tu propio dise\xF1o"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "block pb-6",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Cumplea\xF1os"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Bodas"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Bautizos"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Graduaciones"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Reuniones"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "15 A\xF1os"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Aniversarios"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2",
-                children: "Festivales"
-              })]
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-              href: "/auth/login",
-              className: "font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150",
-              children: ["Ver todos", " ", /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                className: "fa fa-angle-double-right ml-1 leading-relaxed"
-              })]
-            })]
-          })]
-        })]
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto px-4 pb-32 pt-48",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "items-center flex flex-wrap",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-5/12 ml-auto px-12 md:px-4",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "md:pr-12",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                className: "text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white",
-                children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "fas fa-file-alt text-xl"
-                })
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-                className: "text-3xl font-semibold",
-                children: "Panel de administraci\xF3n"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                className: "mt-4 text-lg leading-relaxed text-blueGray-500",
-                children: "Da seguimiento a tus invitaciones con el panel de administraci\xF3n mas completo, revisa quien ha confirmado su asistencia y muchas funcionalidades m\xE1s."
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
-                className: "list-none mt-6",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-                  className: "py-2",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "flex items-center",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                        className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3",
-                        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                          className: "fas fa-fingerprint"
-                        })
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                        className: "text-blueGray-500",
-                        children: "Confirmaci\xF3n de asistencia RVSP"
-                      })
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-                  className: "py-2",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "flex items-center",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                        className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3",
-                        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                          className: "fab fa-html5"
-                        })
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                        className: "text-blueGray-500",
-                        children: "Registro de asistencia con QR"
-                      })
-                    })]
-                  })
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
-                  className: "py-2",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                    className: "flex items-center",
-                    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                        className: "text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3",
-                        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                          className: "far fa-paper-plane"
-                        })
-                      })
-                    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
-                        className: "text-blueGray-500",
-                        children: "Estadisticas de invitaciones"
-                      })
-                    })]
-                  })
-                })]
-              })]
-            })
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-              alt: "...",
-              className: "max-w-full rounded-lg shadow-xl",
-              style: {
-                transform: "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
-              },
-              src: "/img/documentation.png"
-            })
-          })]
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "justify-center text-center flex flex-wrap mt-24",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-          className: "w-full md:w-6/12 px-12 md:px-4",
-          children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h2", {
-            className: "font-semibold text-4xl",
-            children: "Dise\xF1os hermosos de invitaciones"
-          }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-            className: "text-lg leading-relaxed mt-4 mb-4 text-blueGray-500",
-            children: "Elige entre varios dise\xF1os que se adaptan a todo tipo de eventos, tenemos plantillas elegantes, divertidas, formales y muy especiales para toda ocaci\xF3n, si no encuentras lo que buscas puedes solicitar un dise\xF1o personalizado."
-          })]
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("section", {
-      className: "block relative z-1 bg-blueGray-600",
-      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "justify-center flex flex-wrap",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-            className: "w-full lg:w-12/12 px-4  -mt-24",
-            children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "flex flex-wrap",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
-                  className: "text-xl font-semibold pb-4 text-center",
-                  children: "Registro RSVP"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-                  href: "/auth/login",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                    className: "hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150",
-                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                      alt: "...",
-                      className: "align-middle border-none max-w-full h-auto rounded-lg",
-                      src: "/img/login.jpg"
-                    })
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
-                  className: "text-xl font-semibold pb-4 text-center",
-                  children: "Invitaci\xF3n"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-                  href: "/profile",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                    className: "hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150",
-                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                      alt: "...",
-                      className: "align-middle border-none max-w-full h-auto rounded-lg",
-                      src: "/img/profile.jpg"
-                    })
-                  })
-                })]
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-                className: "w-full lg:w-4/12 px-4",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h5", {
-                  className: "text-xl font-semibold pb-4 text-center",
-                  children: "Perfil del evento"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-                  href: "/landing",
-                  children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-                    className: "hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150",
-                    children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("img", {
-                      alt: "...",
-                      className: "align-middle border-none max-w-full h-auto rounded-lg",
-                      src: "/img/landing.jpg"
-                    })
-                  })
-                })]
-              })]
-            })
-          })
-        })
-      })
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("section", {
-      className: "pb-16 bg-blueGray-200 relative pt-32",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20",
-        style: {
-          transform: "translateZ(0)"
-        },
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("svg", {
-          className: "absolute bottom-0 overflow-hidden",
-          xmlns: "http://www.w3.org/2000/svg",
-          preserveAspectRatio: "none",
-          version: "1.1",
-          viewBox: "0 0 2560 100",
-          x: "0",
-          y: "0",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("polygon", {
-            className: "text-blueGray-200 fill-current",
-            points: "2560 0 2560 100 0 100"
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-        className: "container mx-auto",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-          className: "flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-            className: "w-full text-center lg:w-8/12",
-            children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-4xl text-center",
-              children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                role: "img",
-                "aria-label": "love",
-                children: "\uD83D\uDE0D"
-              })
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("h3", {
-              className: "font-semibold text-3xl",
-              children: "Comentarios de nuestros usuarios"
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-              className: "text-blueGray-500 text-lg leading-relaxed mt-4 mb-4",
-              children: "Me encanto la aplicaci\xF3n, nunca fue tan sencillo realizar mis invitaciones y mantener el control de mi evento."
-            }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
-              className: "sm:block flex flex-col mt-10",
-              children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
-                href: "/auth/login",
-                className: "get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150",
-                children: "Crear invitaci\xF3n"
-              }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("a", {
-                href: "/auth/login",
-                target: "_blank",
-                className: "github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg",
-                children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("i", {
-                  className: "fab fa-github text-lg mr-1"
-                }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-                  children: "Solicitar m\xE1s informaci\xF3n"
-                })]
-              })]
-            }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
-              className: "text-center mt-16"
-            })]
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(Footer["a" /* default */], {})]
-  });
-}
-
-/***/ }),
-
-/***/ "UhrY":
-/***/ (function(module, exports) {
-
-module.exports = require("next/dist/next-server/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ "X24+":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.removePathTrailingSlash = removePathTrailingSlash;
-exports.normalizePathTrailingSlash = void 0;
-/**
-* Removes the trailing slash of a path if there is one. Preserves the root path `/`.
-*/
-
-function removePathTrailingSlash(path) {
-  return path.endsWith('/') && path !== '/' ? path.slice(0, -1) : path;
-}
-/**
-* Normalizes the trailing slash of a path according to the `trailingSlash` option
-* in `next.config.js`.
-*/
-
-
-const normalizePathTrailingSlash =  false ? undefined : removePathTrailingSlash;
-exports.normalizePathTrailingSlash = normalizePathTrailingSlash;
 
 /***/ }),
 
