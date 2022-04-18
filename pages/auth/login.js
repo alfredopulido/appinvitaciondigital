@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
+import firebase from 'firebase/compat/app';
+import 'firebase/auth'
 
 // layout for page
 
 import Auth from "layouts/Auth.js";
+import SignInScreen from "components/FirebaseAuth";
 
 export default function Login() {
+  const [renderAuth, setRenderAuth] = useState(false)
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setRenderAuth(true)
+    }
+  }, [])
+
   return (
     <>
       <div className="container mx-auto px-4 h-full">
@@ -19,20 +30,7 @@ export default function Login() {
                   </h6>
                 </div>
                 <div className="btn-wrapper text-center">
-                  <button
-                    className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
-                    type="button"
-                  >
-                    <img alt="..." className="w-5 mr-1" src="/img/github.svg" />
-                    Github
-                  </button>
-                  <button
-                    className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
-                    type="button"
-                  >
-                    <img alt="..." className="w-5 mr-1" src="/img/google.svg" />
-                    Google
-                  </button>
+                  <SignInScreen></SignInScreen>
                 </div>
                 <hr className="mt-6 border-b-1 border-blueGray-300" />
               </div>

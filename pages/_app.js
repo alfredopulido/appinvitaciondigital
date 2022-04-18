@@ -5,7 +5,8 @@ import Head from "next/head";
 import Router from "next/router";
 
 import PageChange from "components/PageChange/PageChange.js";
-import { SessionProvider } from "next-auth/react"
+
+import initAuth from '../initAuth'
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
@@ -42,13 +43,13 @@ export default class MyApp extends App {
     return { pageProps };
   }
   render() {
+    initAuth()
     const { Component, pageProps } = this.props;
 
     const Layout = Component.layout || (({ children }) => <>{children}</>);
 
     return (
       <React.Fragment>
-        <SessionProvider session={pageProps.session}>
           <Head>
             <meta
               name="viewport"
@@ -60,7 +61,6 @@ export default class MyApp extends App {
           <Layout>
             <Component {...pageProps} />
           </Layout>
-        </SessionProvider>
       </React.Fragment>
     );
   }
