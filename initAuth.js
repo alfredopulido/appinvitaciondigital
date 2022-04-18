@@ -1,5 +1,6 @@
 // ./initAuth.js
 import { init } from 'next-firebase-auth'
+import firebaseClientInitConfig from './firebaseClientInitConfig';
 
 const initAuth = () => {
   init({
@@ -23,15 +24,7 @@ const initAuth = () => {
     },
     // Use application default credentials (takes precedence over fireaseAdminInitConfig if set)
     // useFirebaseAdminDefaultCredential: true,
-    firebaseClientInitConfig: {
-      apiKey: "AIzaSyC_7PJBr95OSyXMpiF846d1BwLvZTxvrbA",
-      authDomain: "appinvitaciondigital.firebaseapp.com",
-      projectId: "appinvitaciondigital",
-      storageBucket: "appinvitaciondigital.appspot.com",
-      messagingSenderId: "466777824847",
-      appId: "1:466777824847:web:4a38bcb434b199c1f6d43a",
-      measurementId: "G-7RYZ3BV0T1"
-    },
+    firebaseClientInitConfig: firebaseClientInitConfig,
     cookies: {
       name: 'ExampleApp', // required
       // Keys are required unless you set `signed` to `false`.

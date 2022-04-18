@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
-import firebase from 'firebase/compat/app';
-import 'firebase/auth'
 
 // layout for page
 
@@ -10,12 +7,6 @@ import Auth from "layouts/Auth.js";
 import SignInScreen from "components/FirebaseAuth";
 
 export default function Login() {
-  const [renderAuth, setRenderAuth] = useState(false)
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setRenderAuth(true)
-    }
-  }, [])
 
   return (
     <>

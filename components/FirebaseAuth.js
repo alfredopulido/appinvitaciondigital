@@ -3,13 +3,10 @@ import React from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
+import firebaseClientInitConfig from '../firebaseClientInitConfig';
 
 // Configure Firebase.
-const config = {
-  apiKey: "AIzaSyC_7PJBr95OSyXMpiF846d1BwLvZTxvrbA",
-  authDomain: "appinvitaciondigital.firebaseapp.com",
-};
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseClientInitConfig);
 
 // Configure FirebaseUI.
 const uiConfig = {
