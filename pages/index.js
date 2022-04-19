@@ -1,12 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import Link from "next/link";
-import { withAuthUser } from 'next-firebase-auth';
+import { useAuthUser, withAuthUser } from 'next-firebase-auth';
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 const Index = () => {
+  const AuthUser = useAuthUser();
   return (
     <>
       <IndexNavbar fixed />
@@ -27,6 +28,7 @@ const Index = () => {
                 >
                   Iniciar ahora
                 </a>
+                <p>{AuthUser.email ? AuthUser.email : 'unknown'}.</p>
               </div>
             </div>
           </div>
