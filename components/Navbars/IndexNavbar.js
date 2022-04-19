@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router'
+import { useAuthUser } from "next-firebase-auth";
 // components
-
-import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const router = useRouter();
+  const AuthUser = useAuthUser();
   return (
     <>
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow">
@@ -58,12 +60,23 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <button
-                  className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
-                >
-                  <i className="fas fa-check"></i> Iniciar
-                </button>
+                {AuthUser.id ? 
+                  <button
+                    className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    type="button"
+                    onClick={()=>{router.push('/admin/dashboard')}}
+                  >
+                    <i className="fas fa-check"></i> Panel
+                  </button>
+                  :
+                  <button
+                      className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                      type="button"
+                      onClick={()=>{router.push('/auth/login')}}
+                    >
+                      <i className="fas fa-check"></i> Iniciar
+                    </button>
+                }
               </li>
             </ul>
           </div>

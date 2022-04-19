@@ -23,12 +23,11 @@ const Index = () => {
               </p>
               <div className="mt-12">
                 <a
-                  href="/auth/login"
+                  href={AuthUser.id?"/admin/dashboard":"/auth/login"}
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Iniciar ahora
                 </a>
-                <p>{AuthUser.email ? AuthUser.email : 'unknown'}.</p>
               </div>
             </div>
           </div>
